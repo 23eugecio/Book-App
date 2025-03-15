@@ -1,0 +1,49 @@
+/* Container for the book review */
+.book-review {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the book */
+.book-review h2 {
+    font-size: 1.8rem;
+    color: #6200ee;
+    margin-bottom: 1rem;
+}
+
+/* Review text */
+.book-review p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Star ratings */
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    font-size: 1.5rem;
+    color: #e4e5e9; /* Default color for empty stars */
+    margin-right: 4px;
+    transition: color 0.3s ease;
+}
+
+.star.filled {
+    color: #ffc107; /* Yellow color for filled stars */
+}
+
+/* Not found message */
+.not-found {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #d9534f; /* Red color for error message */
+    margin-top: 2rem;
+}

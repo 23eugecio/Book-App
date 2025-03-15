@@ -1,0 +1,99 @@
+/* General styles for the register container */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    padding: 1rem; /* Asegura un espacio en dispositivos pequeños */
+}
+
+.register-form {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 100%; /* Que ocupe todo el ancho en pantallas pequeñas */
+    max-width: 400px; /* Un ancho máximo para pantallas más grandes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styles for form fields */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Register button */
+.register-button {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #6200ee;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.register-button:hover {
+    background-color: #4500b8;
+}
+
+/* Links */
+.form-links {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.login-link {
+    color: #6200ee;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .register-container {
+        padding: 0.5rem; /* Reduce el espacio en dispositivos pequeños */
+    }
+
+    .register-form {
+        padding: 1.5rem; /* Ajusta el relleno en pantallas pequeñas */
+        box-shadow: none; /* Elimina la sombra para simplificar el diseño */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Reduce el tamaño del título */
+    }
+
+    input {
+        padding: 0.4rem; /* Reduce el relleno en campos de entrada */
+    }
+
+    .register-button {
+        padding: 0.6rem; /* Botón más compacto */
+    }
+}

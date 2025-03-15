@@ -1,0 +1,24 @@
+footer {
+    background-color: #f4f4f4;
+    /* Color de fondo claro */
+    color: #333;
+    /* Color del texto */
+    text-align: center;
+    /* Centrar el texto */
+    padding: 1rem;
+    /* Espaciado interno */
+    border-top: 1px solid #ddd;
+    /* Línea sutil en la parte superior */
+    position: relative;
+    /* Evitar problemas de posición */
+    bottom: 0;
+    width: 100%;
+    /* Asegurar que ocupa todo el ancho */
+    font-size: 0.9rem;
+    /* Tamaño del texto ligeramente más pequeño */
+}
+
+footer p {
+    margin: 0;
+    /* Eliminar márgenes del párrafo */
+}
