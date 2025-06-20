@@ -107,3 +107,21 @@ footer {
 footer p {
     margin: 0;
 }   
+
+.review-list-container {
+    overflow: hidden;
+    animation: slideDown 500ms ease forwards;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        max-height: 100px;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        max-height: 1000px; /* suficiente para mostrar el contenido */
+        transform: translateY(0);
+    }
+}

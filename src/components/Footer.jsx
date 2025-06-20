@@ -4,7 +4,7 @@ import "../styles/Footer.css";
 const Footer = () => {
     return (
         <footer>
-            <p>Book Review App. Todos los derechos reservados.</p>
+            <p>Book Review App. All rights reserved.</p>
         </footer>
     );
 };

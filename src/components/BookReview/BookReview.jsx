@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { reviews } from "../data"; // Import shared data
-import "./../styles/BookReview.css";
+import { reviews } from "../../data"; // Import shared data
+import "../../styles/BookReview.css";
 
 const BookReview = () => {
     const { id } = useParams(); // Get the ID from the URL

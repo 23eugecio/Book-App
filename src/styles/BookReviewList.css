@@ -1,0 +1,12 @@
+.review-list {
+    padding: 1rem;
+}
+
+.review-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.review-list li {
+    margin: 0.5rem 0;
+}

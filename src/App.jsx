@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import BookReview from "./components/BookReview";
-
+import BookReview from "./components/BookReview/BookReview";
+import BookReviewList from "./components/BookReviewList/BookReviewList";
 const AppRouter = () => {
   return (
 
@@ -12,7 +12,8 @@ const AppRouter = () => {
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
       <Route path="/home" element={<Home />} />
-      <Route path="/book-review/:id" element={<BookReview />} />
+      <Route path="/review/:id" element={<BookReview />} />
+      <Route path="/BookCard" element={<BookReviewList />} />
     </Routes>
 
   );
